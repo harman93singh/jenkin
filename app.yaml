@@ -1,0 +1,17 @@
+runtime: custom
+env: flex
+#manual_scaling:
+ # instances: 2
+service: scraper
+#handlers:
+#- url: /static
+#  static_dir: static/
+network:
+  forwarded_ports:
+    - 8000/tcp
+resources:
+  cpu: 4
+  memory_gb: 8
+  disk_size_gb: 50
+#readiness_check:
+ # app_start_timeout_sec: 300

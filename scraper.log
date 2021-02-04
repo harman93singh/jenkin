@@ -1,0 +1,21 @@
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 08, 2020 - 20:30:05
+Django version 3.1.1, using settings 'trustdjobs.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Getting jobs for software developer from monster.ca
+Total 1 pages to search for 32 jobs.
+Getting jobs from page 1
+A generic error occurred: 'ascii' codec can't encode character '\u2013' in position 26: ordinal not in range(128)
+Saved job listings for software developer
+Getting jobs for software tester from monster.ca
+Total 1 pages to search for 33 jobs.
+Getting jobs from page 1
+A generic error occurred: 'ascii' codec can't encode character '\xe9' in position 23: ordinal not in range(128)
+A generic error occurred: 'ascii' codec can't encode character '\xe9' in position 7: ordinal not in range(128)
+Saved job listings for software tester
+Getting jobs for software support from monster.ca
+Total 1 pages to search for 13 jobs.
+Getting jobs from page 1
