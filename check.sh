@@ -22,5 +22,5 @@ while IFS= read -r line; do
    cont+=( "$line" )
 done < <( docker ps -a --format "{{.Names}}" )
 chk="scrp"
-[[ " ${cont[@]} " =~ " ${chk} " ]] && docker stop scrp; docker container rm scrp; docker run -d --name scrp -p 8000:8000 auto || docker run -d --name scrp -p 8000:8000 auto
+[[ " ${cont[@]} " =~ " ${chk} " ]] && docker stop scrp; docker container rm scrp; || echo "its fine" 
 
